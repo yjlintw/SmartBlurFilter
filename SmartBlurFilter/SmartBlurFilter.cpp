@@ -12,16 +12,16 @@
 
 SmartBlurFilter::SmartBlurFilter()
 {
-    
+    hsvMat = cv::Mat();
 }
 
 
-float lerp(float pointA, float pointB, float amt)
+float SmartBlurFilter::lerp(float pointA, float pointB, float amt)
 {
     return pointA + amt * (pointB - pointA);
 }
 
-cv::Vec3b lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt)
+cv::Vec3b SmartBlurFilter::lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt)
 {
     cv::Vec3b resultPixel;
     resultPixel[0] = lerp((float)pointA[0], (float)pointB[0], amt);
@@ -31,7 +31,7 @@ cv::Vec3b lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt)
     return resultPixel;
 }
 
-float rmsError(cv::Mat roiMat)
+float SmartBlurFilter::rmsError(cv::Mat roiMat)
 {
     int avgR = 0;
     int avgG = 0;
@@ -51,7 +51,7 @@ float rmsError(cv::Mat roiMat)
     avgG /= (PIXELAMOUNT + 15);
     avgB /= (PIXELAMOUNT + 15);
     
-    float accumulator;
+    float accumulator = 0;
     
     for (int j = 0; j < roiMat.rows; j++)
     {
@@ -73,7 +73,7 @@ float rmsError(cv::Mat roiMat)
     return rms;
 }
 
-float getAmount(float rms, float cutoff)
+float SmartBlurFilter::getAmount(float rms, float cutoff)
 {
     if (rms > cutoff)
         return 1.0f;

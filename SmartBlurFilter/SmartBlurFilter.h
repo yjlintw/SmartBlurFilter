@@ -29,10 +29,10 @@ private:
     
     cv::Mat computeWhite(cv::Mat inputMat, int whiteThreshold, int brightThreshold);
     cv::Mat computeBlur(cv::Mat inputMat, int threshold);
-    //float lerp(float pointA, float pointB, float amt);
-    //cv::Vec3b lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt);
-    //float rmsError(cv::Mat roiMat);
-    //float getAmount(float rms, float cutoff);
+    float lerp(float pointA, float pointB, float amt);
+    cv::Vec3b lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt);
+    float rmsError(cv::Mat roiMat);
+    float getAmount(float rms, float cutoff);
     
     
 };

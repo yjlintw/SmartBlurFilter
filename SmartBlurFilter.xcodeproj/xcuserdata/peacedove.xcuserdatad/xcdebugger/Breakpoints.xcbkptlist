@@ -39,8 +39,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "73"
          endingLineNumber = "73"
-         landmarkName = "rmsError(cv::Mat roiMat)"
-         landmarkType = "7">
+         landmarkName = "SmartBlurFilter::rmsError(cv::Mat roiMat)"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -52,8 +52,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "80"
          endingLineNumber = "80"
-         landmarkName = "getAmount(float rms, float cutoff)"
-         landmarkType = "7">
+         landmarkName = "SmartBlurFilter::getAmount(float rms, float cutoff)"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -65,8 +65,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "79"
          endingLineNumber = "79"
-         landmarkName = "getAmount(float rms, float cutoff)"
-         landmarkType = "7">
+         landmarkName = "SmartBlurFilter::getAmount(float rms, float cutoff)"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -78,8 +78,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "31"
          endingLineNumber = "31"
-         landmarkName = "lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt)"
-         landmarkType = "7">
+         landmarkName = "SmartBlurFilter::lerpPixel( cv::Vec3b pointA, cv::Vec3b pointB, float amt)"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -91,8 +91,8 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "72"
          endingLineNumber = "72"
-         landmarkName = "rmsError(cv::Mat roiMat)"
-         landmarkType = "7">
+         landmarkName = "SmartBlurFilter::rmsError(cv::Mat roiMat)"
+         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
