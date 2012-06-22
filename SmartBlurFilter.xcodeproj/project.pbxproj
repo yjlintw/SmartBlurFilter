@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7B792A7159429E3008BC01C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B792A6159429E3008BC01C /* main.cpp */; };
+		E7B792A9159429E3008BC01C /* SmartBlurFilter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7B792A8159429E3008BC01C /* SmartBlurFilter.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7B792A0159429E3008BC01C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E7B792A9159429E3008BC01C /* SmartBlurFilter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7B792A2159429E3008BC01C /* SmartBlurFilter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SmartBlurFilter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B792A6159429E3008BC01C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E7B792A8159429E3008BC01C /* SmartBlurFilter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SmartBlurFilter.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B7929F159429E3008BC01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B79297159429E3008BC01C = {
+			isa = PBXGroup;
+			children = (
+				E7B792A5159429E3008BC01C /* SmartBlurFilter */,
+				E7B792A3159429E3008BC01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B792A3159429E3008BC01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B792A2159429E3008BC01C /* SmartBlurFilter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B792A5159429E3008BC01C /* SmartBlurFilter */ = {
+			isa = PBXGroup;
+			children = (
+				E7B792A6159429E3008BC01C /* main.cpp */,
+				E7B792A8159429E3008BC01C /* SmartBlurFilter.1 */,
+			);
+			path = SmartBlurFilter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B792A1159429E3008BC01C /* SmartBlurFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B792AC159429E3008BC01C /* Build configuration list for PBXNativeTarget "SmartBlurFilter" */;
+			buildPhases = (
+				E7B7929E159429E3008BC01C /* Sources */,
+				E7B7929F159429E3008BC01C /* Frameworks */,
+				E7B792A0159429E3008BC01C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBlurFilter;
+			productName = SmartBlurFilter;
+			productReference = E7B792A2159429E3008BC01C /* SmartBlurFilter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B79299159429E3008BC01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = home;
+			};
+			buildConfigurationList = E7B7929C159429E3008BC01C /* Build configuration list for PBXProject "SmartBlurFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7B79297159429E3008BC01C;
+			productRefGroup = E7B792A3159429E3008BC01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B792A1159429E3008BC01C /* SmartBlurFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B7929E159429E3008BC01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B792A7159429E3008BC01C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7B792AA159429E3008BC01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E7B792AB159429E3008BC01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7B792AD159429E3008BC01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7B792AE159429E3008BC01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B7929C159429E3008BC01C /* Build configuration list for PBXProject "SmartBlurFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B792AA159429E3008BC01C /* Debug */,
+				E7B792AB159429E3008BC01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B792AC159429E3008BC01C /* Build configuration list for PBXNativeTarget "SmartBlurFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B792AD159429E3008BC01C /* Debug */,
+				E7B792AE159429E3008BC01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B79299159429E3008BC01C /* Project object */;
+}
