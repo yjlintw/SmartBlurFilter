@@ -120,12 +120,6 @@ cv::Mat SmartBlurFilter::computeBlur(cv::Mat inputMat, int threshold)
                 inputMat.at<cv::Vec3b>(j,i) = lerpPixel(inputMat.at<cv::Vec3b>(j,i), blurMat.at<cv::Vec3b>(j,i), amt);
                 
             }
-            else 
-            {
-                //inputMat.at<cv::Vec3b>(j, i)[0] = 0;
-                //inputMat.at<cv::Vec3b>(j, i)[1] = 0;
-                //inputMat.at<cv::Vec3b>(j, i)[2] = 0;
-            }
         }
     }
     return inputMat;
@@ -171,9 +165,6 @@ cv::Mat SmartBlurFilter::computeWhite(cv::Mat inputMat, int whiteThreshold, int 
                 }
                 
                 hsvMat.at<cv::Vec3b>(j, i)[2] = v;
-            }
-            else
-            {
             }
         }
     }
